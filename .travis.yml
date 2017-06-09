@@ -1,0 +1,9 @@
+---
+# Testing travis configuration
+
+sudo: false
+dist: trusty
+
+language: bash
+
+script: "echo 'Travis says Hello, World!'"
