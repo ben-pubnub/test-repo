@@ -6,4 +6,4 @@ dist: trusty
 
 language: bash
 
-script: "echo 'Travis says Hello, World!'"
+script: "echo 'Travis Enterprise says Hello, World!'"
