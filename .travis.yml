@@ -4,6 +4,11 @@
 sudo: false
 dist: trusty
 
-language: bash
+language: go
 
-script: "echo 'Travis Enterprise says Hello, World! Again'"
+go:
+  - 1.8
+
+script:
+  - go build
+  - ./test-repo
