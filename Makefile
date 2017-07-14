@@ -5,7 +5,7 @@ c:
 	./a.out
 
 go:
-	go build -o hello
+	go build -o hello main.go
 	./hello
 
 node:
