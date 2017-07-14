@@ -10,5 +10,4 @@ go:
   - 1.8
 
 script:
-  - go build
-  - ./test-repo
+  - make go
