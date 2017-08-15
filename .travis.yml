@@ -4,11 +4,10 @@
 sudo: false
 dist: trusty
 
-language: go
+language: node_js
 
-go:
-  - 1.8
+node_js:
+  - "4.4.7"
 
 script:
-  - echo "Random stuffs"
-  - make go
+  - make node
