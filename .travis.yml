@@ -10,4 +10,5 @@ go:
   - 1.8
 
 script:
+  - echo "Random stuffs"
   - make go
