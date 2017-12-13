@@ -2,7 +2,7 @@
 # Testing travis configuration
 
 sudo: false
-dist: trusty
+dist: precise
 
 language: node_js
 
