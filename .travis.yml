@@ -10,4 +10,4 @@ node_js:
   - "4.4.7"
 
 script:
-  - echo "Before Trusty Work, After Update" && make node
+  - echo "After Trusty Work" && make node
