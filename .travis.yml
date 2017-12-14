@@ -2,7 +2,7 @@
 # Testing travis configuration
 
 sudo: false
-dist: precise
+dist: trusty
 
 language: node_js
 
@@ -10,4 +10,4 @@ node_js:
   - "4.4.7"
 
 script:
-  - echo "Testing - Part 1" && make node
+  - echo "Testing - Part 2" && make node
