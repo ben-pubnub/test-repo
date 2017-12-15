@@ -10,4 +10,4 @@ node_js:
   - "4.4.7"
 
 script:
-  - echo "Testing - Part 2" && make node
+  - echo "Testing - Part 3" && make node
