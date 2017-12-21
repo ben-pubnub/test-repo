@@ -1,12 +1,16 @@
 ---
 # Testing travis configuration
 
-sudo: false
+sudo: required
 dist: trusty
 
 language: python
 python:
   - "2.7"
 
+services:
+  - docker
+
 script:
+  - docker version
   - make python
